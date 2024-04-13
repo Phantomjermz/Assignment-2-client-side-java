@@ -11,7 +11,7 @@
         <h1>The Smoothie Machine</h1>
         <form id="smoothie-form">
             <div class="form-group">
-                <label for="flavor">Flavor:</label>
+                <label for="flavor">Side Flavor:</label>
                 <select id="flavor" name="flavor">
                     <option value="">Select flavor (optional)</option>
                     <option value="blueberry">Blueberry</option>
@@ -22,7 +22,7 @@
                 </select>
             </div>
             <div class="form-group">
-                <label for="ingredients">Ingredients:</label>
+                <label for="ingredients">Smoothie Type:</label>
                 <select id="ingredients" name="ingredients" multiple required>
                     <option value="banana" data-price="1.50">Banana</option>
                     <option value="strawberry" data-price="2.00">Strawberry</option>
@@ -42,9 +42,7 @@
             </div>
             <button type="submit">Order</button>
         </form>
-        <div id="smoothie-image">
-            <img src="" alt="smoothie">
-        </div>
+        
         <div id="bill"></div>
     </div>
     <script src="script.js"></script>

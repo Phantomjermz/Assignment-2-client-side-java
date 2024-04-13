@@ -23,8 +23,8 @@ document.getElementById('smoothie-form').addEventListener('submit', function(eve
     // Display bill
     document.getElementById('bill').innerHTML = `
         <h2>Smoothie Bill:</h2>
-        <p><strong>Flavor:</strong> ${smoothie.flavor}</p>
-        <p><strong>Ingredients:</strong> ${smoothie.ingredients.join(', ')}</p>
+        <p><strong>Side Flavor:</strong> ${smoothie.flavor}</p>
+        <p><strong>Smoothie Type:</strong> ${smoothie.ingredients.join(', ')}</p>
         <p><strong>Size:</strong> ${smoothie.size}</p>
         <p><strong>Total Cost:</strong> $${smoothie.totalCost}</p>
     `;
