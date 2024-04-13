@@ -12,7 +12,14 @@
         <form id="smoothie-form">
             <div class="form-group">
                 <label for="flavor">Flavor:</label>
-                <input type="text" id="flavor" name="flavor" required>
+                <select id="flavor" name="flavor">
+                    <option value="">Select flavor (optional)</option>
+                    <option value="blueberry">Blueberry</option>
+                    <option value="banana">Banana</option>
+                    <option value="strawberry">Strawberry</option>
+                    <option value="mango">Mango</option>
+                    <!-- Add more flavor options here -->
+                </select>
             </div>
             <div class="form-group">
                 <label for="ingredients">Ingredients:</label>
