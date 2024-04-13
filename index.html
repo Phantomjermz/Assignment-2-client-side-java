@@ -28,14 +28,17 @@
             <div class="form-group">
                 <label for="size">Size:</label>
                 <select id="size" name="size" required>
-                    <option value="small">Small</option>
-                    <option value="medium">Medium</option>
-                    <option value="large">Large</option>
+                    <option value="small" data-multiplier="1">Small</option>
+                    <option value="medium" data-multiplier="1.5">Medium</option>
+                    <option value="large" data-multiplier="2">Large</option>
                 </select>
             </div>
             <button type="submit">Order</button>
         </form>
-        <div id="output"></div>
+        <div id="smoothie-image">
+            <!-- Placeholder for smoothie image -->
+        </div>
+        <div id="bill"></div>
     </div>
     <script src="script.js"></script>
 </body>
